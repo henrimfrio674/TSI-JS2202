@@ -1,0 +1,6 @@
+let altura = parsefloat(prompt("Sua altura em cm: "));
+let peso = parsefloat(prompt("Sua massa em kg: "));
+
+let imc = peso / (altura*altura);
+
+document.write("Seu IMC é igual a: "+imc);
